@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1977010441680782}
+  m_IsPrefabParent: 1
+--- !u!1 &1977010441680782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4019256487727332}
+  - component: {fileID: 33554740046234514}
+  - component: {fileID: 23646515619387034}
+  - component: {fileID: 135196158869557328}
+  - component: {fileID: 114914599262410180}
+  m_Layer: 0
+  m_Name: Dome_LowPoly
+  m_TagString: BreakableGlass
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4019256487727332
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977010441680782}
+  m_LocalRotation: {x: -4.32978e-17, y: 0.7071067, z: 0.7071068, w: -4.3297806e-17}
+  m_LocalPosition: {x: 0.061356507, y: 0.5097573, z: 48.120007}
+  m_LocalScale: {x: 2, y: 1.9999995, z: 1.9999995}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &23646515619387034
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977010441680782}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 2c4c7567c3df41b4481f4e2fd682d27e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33554740046234514
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977010441680782}
+  m_Mesh: {fileID: 4307282, guid: ca9b4b500c4010242a47988b470c81ff, type: 3}
+--- !u!114 &114914599262410180
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977010441680782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abb67145c9b9248f7a64626e440fd1b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  emitterType: 4
+  playerType: 2
+  singleSfx: 0d000000
+  randomSfx: -1
+  soundPlayProbability: 1
+  volume: 1
+  pitch: -1
+  randomPitch: 0
+  startDelay: 0
+  immediateDelayRandomTime: {x: 0, y: 0}
+  repeatSoundNof: 0
+  repeatDelayExtraTime: 0
+  repeatDelayExtraRandomTime: {x: 0, y: 0}
+  repeatSameSound: 1
+  stopOnHitObjectStopTouch: 0
+  fadeStop: 1
+  minTriggerDelay: 0.25
+  zombieWatch: []
+  autoFillZombieWatch: 0
+  fallWatch: []
+  fallSpeedTresholds: {x: 0, y: 0, z: 0}
+  singleFall: 1
+  speechBubblePrefab: {fileID: 0}
+  speechBubbleDuration: 0
+  speechBubbleToCollidingPlayer: 1
+  speechBubbleToThisObject: 0
+  speechShowProbability: 1
+--- !u!135 &135196158869557328
+SphereCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977010441680782}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 1
+  m_Center: {x: 0, y: 0, z: 0}

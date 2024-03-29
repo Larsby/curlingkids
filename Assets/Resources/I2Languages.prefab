@@ -1,0 +1,2538 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1200065864251386}
+  m_IsPrefabAsset: 1
+--- !u!1 &1200065864251386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4745688574342628}
+  - component: {fileID: 114212963842317708}
+  m_Layer: 0
+  m_Name: I2Languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4745688574342628
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1200065864251386}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114212963842317708
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1200065864251386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488051eaa73ba421e8fe4868f2e0f364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NeverDestroy: 0
+  UserAgreesToHaveItOnTheScene: 0
+  UserAgreesToHaveItInsideThePluginsFolder: 0
+  Spreadsheet_LocalFileName: /Users/larsby/Desktop/testimport.csv
+  Spreadsheet_LocalCSVSeparator: ','
+  Spreadsheet_LocalCSVEncoding: utf-8
+  Spreadsheet_SpecializationAsRows: 1
+  Assets: []
+  Google_WebServiceURL: https://script.google.com/macros/s/AKfycbxWfbHrCBxij4SdyuHhmrm1JVqcyDzCQnONm9Ff/exec
+  Google_SpreadsheetKey: 
+  Google_SpreadsheetName: 
+  Google_LastUpdatedVersion: 1527583775751
+  GoogleUpdateFrequency: 0
+  GoogleInEditorCheckFrequency: 2
+  GoogleUpdateDelay: 5
+  mLanguages:
+  - Name: English
+    Code: en
+    Flags: 0
+  - Name: Swedish
+    Code: sv
+    Flags: 0
+  - Name: German
+    Code: de
+    Flags: 0
+  - Name: Chinese
+    Code: zh
+    Flags: 0
+  - Name: Spanish
+    Code: es
+    Flags: 0
+  IgnoreDeviceLanguage: 0
+  mTerms:
+  - Term: 1 extra player per level!
+    TermType: 0
+    Description: 
+    Languages:
+    - 1 extra player per level!
+    - "1 extra spelare per niv\xE5!"
+    - "1 zus\xE4tzlicher Spieler pro Level!"
+    - "\u6BCF\u7EA71\u4E2A\u989D\u5916\u7684\u73A9\u5BB6\uFF01"
+    - 1 jugador extra por nivel!
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: 1 extra star per level
+    TermType: 0
+    Description: 
+    Languages:
+    - 1 extra star per level
+    - "1 extra stj\xE4rna per niv\xE5"
+    - "1 zus\xE4tzlicher Stern pro Level"
+    - "\u6BCF\u7EA71\u4E2A\u989D\u5916\u7684\u661F\u661F"
+    - 1 estrella extra por nivel
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: 10 kr - 200 credits
+    TermType: 0
+    Description: 
+    Languages:
+    - 10 kr - 200  credits E
+    - 10 kr - 200  credits S
+    - 10 kr - 200 Credits E
+    - "10 kr  -  200\u5B66\u5206E"
+    - "10 kr - 200 cr\xE9ditos E"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: 8000 kr
+    TermType: 0
+    Description: 
+    Languages:
+    - 8000 kr
+    - 8000 kr
+    - 8000 kr
+    - 8000 kr
+    - 8000 kr
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: A true nobleman
+    TermType: 0
+    Description: 
+    Languages:
+    - A true nobleman, uses the word "M'lady" a bit much
+    - "En riktig gentleman, anv\xE4nder ordet \"Madam\" lite mycket"
+    - Ein wahrer Edelmann, benutzt das Wort "M'lady" ein bisschen viel
+    - "\u4E00\u4E2A\u771F\u6B63\u7684\u8D35\u65CF\uFF0C\u4F7F\u7528\u201CM'lady\u201D\u8FD9\u4E2A\u8BCD\u6709\u70B9\u591A"
+    - Un verdadero noble, usa un poco la palabra "M'lady"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: After tossing, press this button to toss again quickly
+    TermType: 0
+    Description: 
+    Languages:
+    - After a hit or a miss, press the button below to quickly throw again!
+    - "Efter en tr\xE4ff eller miss, tryck p\xE5 knappen nedan f\xF6r att snabbt kasta
+      igen!"
+    - "Nach einem Treffer oder einem Fehlschlag dr\xFCcken Sie die Taste unten, um
+      schnell wieder zu werfen!"
+    - "\u51FB\u4E2D\u6216\u672A\u547D\u4E2D\u540E\uFF0C\u6309\u4E0B\u9762\u7684\u6309\u94AE\u5FEB\u901F\u518D\u6B21\u6295\u63B7\uFF01"
+    - "Despu\xE9s de un golpe o una falta, presione el bot\xF3n de abajo para lanzar
+      r\xE1pidamente de nuevo!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Always gets invited to raves
+    TermType: 0
+    Description: 
+    Languages:
+    - Always gets invited to parties
+    - Blir alltid inbjuden till kalas
+    - Wird immer zu Partys eingeladen
+    - "\u603B\u662F\u88AB\u9080\u8BF7\u53C2\u52A0\u6D3E\u5BF9"
+    - Siempre es invitado a fiestas
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Arasinya
+    TermType: 0
+    Description: 
+    Languages:
+    - Arasinya
+    - Arasinya
+    - Arasinya
+    - Arasinya
+    - Arasinya
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Arial
+    TermType: 0
+    Description: 
+    Languages:
+    - Arial
+    - Arial
+    - Arial
+    - "\u5B8B\u4F53"
+    - Arial
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Baby toss
+    TermType: 0
+    Description: 
+    Languages:
+    - Baby throw- Throw once!
+    - "Bebiskast - F\xF6rsta kastet!"
+    - Baby werfen - Einmal werfen!
+    - "\u5B9D\u8D1D\u6254 - \u6254\u4E00\u6B21\uFF01"
+    - "Baby throw- \xA1Lanzar una vez!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Bench press athlete
+    TermType: 0
+    Description: 
+    Languages:
+    - Bench press athlete!
+    - "B\xE4nkpressare!"
+    - "Bankdr\xFCcken Athlet!"
+    - "\u5367\u63A8\u8FD0\u52A8\u5458\uFF01"
+    - "\xA1Atleta de press de banca!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Bench press star
+    TermType: 0
+    Description: 
+    Languages:
+    - Bench press star!
+    - "B\xE4nkpressar-stj\xE4rna!"
+    - "Bankdr\xFCcken Stern!"
+    - "\u5367\u63A8\u65B0\u661F\uFF01"
+    - "\xA1Estrella de prensa de banco!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Big deal dimond hunter
+    TermType: 0
+    Description: 
+    Languages:
+    - Big deal diamond hunter
+    - "Fantastisk diamantj\xE4gare"
+    - "Gro\xDFe Sache Diamantj\xE4ger"
+    - "\u5927\u4E0D\u4E86\u7684\u94BB\u77F3\u730E\u4EBA"
+    - Gran cazador de diamantes
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Bling-Bling! 3 times the money on jewels
+    TermType: 0
+    Description: 
+    Languages:
+    - Bling Bling! 2 times the money on diamonds
+    - "Bling Bling! 2 g\xE5nger pengarna f\xF6r diamanter"
+    - "Bling Bling! 2 mal das Geld f\xFCr Diamanten"
+    - "\u4EAE\u95EA\u95EA\uFF01\u73E0\u5B9D\u4E0A\u7684\u94B1\u662F\u73E0\u5B9D\u76843\u500D"
+    - Bling Bling! 2 veces el dinero en diamantes
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Bounce on flipper
+    TermType: 0
+    Description: 
+    Languages:
+    - Bounce on flipper
+    - Studsa som en flipperkula
+    - Auf Flosse springen
+    - "\u5F39\u8DF3\u5728\u9CCD\u72B6\u80A2\u4E0A"
+    - Rebote en la aleta
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Box collector
+    TermType: 0
+    Description: 
+    Languages:
+    - Box collector
+    - "L\xE5dsamlare"
+    - Box Sammler
+    - "\u76D2\u5B50\u6536\u85CF\u5BB6"
+    - Coleccionista de cajas
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Bra jobbat!
+    TermType: 0
+    Description: 
+    Languages:
+    - Well done!
+    - Bra jobbat!
+    - Gut gemacht!
+    - "\u505A\u5F97\u597D\uFF01"
+    - "\xA1Bien hecho!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Break 10 glass windows
+    TermType: 0
+    Description: 
+    Languages:
+    - Break 10 glass windows
+    - Pajja 10 glasrutor
+    - Brechen Sie 10 Glasfenster
+    - "\u6253\u783410\u4E2A\u73BB\u7483\u7A97"
+    - Romper 10 ventanas de vidrio
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Break by tilting device towards you
+    TermType: 0
+    Description: 
+    Languages:
+    - Break by tilting the device towards you
+    - Bromsa genom att luta mobilen mot dig
+    - "Brechen Sie, indem Sie das Ger\xE4t zu sich neigen"
+    - "\u901A\u8FC7\u5411\u60A8\u503E\u659C\u8BBE\u5907\u6765\u6253\u7834"
+    - Rompa inclinando el dispositivo hacia usted
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Brian
+    TermType: 0
+    Description: 
+    Languages:
+    - Brian
+    - Conny
+    - Brian
+    - "\u5E03\u8D56\u6069"
+    - Brian
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Built with true love
+    TermType: 0
+    Description: 
+    Languages:
+    - Built with true love
+    - "Byggd med \xE4kta k\xE4rlek"
+    - Mit wahrer Liebe gebaut
+    - "\u7528\u771F\u7231\u5EFA\u9020"
+    - Construido con amor verdadero
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Button
+    TermType: 0
+    Description: 
+    Languages:
+    - Button
+    - Knapp
+    - Taste
+    - "\u6309\u952E"
+    - "Bot\xF3n"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Buy
+    TermType: 0
+    Description: 
+    Languages:
+    - BUY
+    - "K\xD6P"
+    - Kaufen
+    - "\u8D2D\u4E70"
+    - Comprar
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: CHARACTERS
+    TermType: 0
+    Description: 
+    Languages:
+    - CHARACTERS
+    - "KARAKT\xC4RER"
+    - Figuren
+    - "\u4EBA\u7269"
+    - Caracteres
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Chef superb
+    TermType: 0
+    Description: 
+    Languages:
+    - Chef superb
+    - Kocken Kenny
+    - Chefkoch ausgezeichnet
+    - "\u53A8\u5E08\u7CBE\u6E5B"
+    - Chef excelente
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Chip Woodley
+    TermType: 0
+    Description: 
+    Languages:
+    - Chip Woodley
+    - "Tr\xE4-Chippen"
+    - Chip Woodley
+    - "\u82AF\u7247\u6728\u6797"
+    - Chip Woodley
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Christmas promo Buy zombiepack
+    TermType: 0
+    Description: 
+    Languages:
+    - For more zombie levels, buy the zombie pack!
+    - For more zombie levels, buy the zombie pack!
+    - For more zombie levels, buy the zombie pack!
+    - For more zombie levels, buy the zombie pack!
+    - For more zombie levels, buy the zombie pack!
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: CollecT JEWELS TO GET COINS
+    TermType: 0
+    Description: 
+    Languages:
+    - Collect jewels to get coins
+    - "Samla juveler f\xF6r att f\xE5 mynt"
+    - "Sammle Juwelen, um M\xFCnzen zu erhalten"
+    - "\u6536\u96C6\u73E0\u5B9D\u6765\u83B7\u5F97\u91D1\u5E01"
+    - Recoge joyas para obtener monedas
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Collect 10 diamonds
+    TermType: 0
+    Description: 
+    Languages:
+    - Collect 10 diamonds
+    - Samla 10 diamanter
+    - Sammle 10 Diamanten
+    - "\u6536\u96C610\u9897\u94BB\u77F3"
+    - Recoge 10 diamantes
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Collect 100 diamonds
+    TermType: 0
+    Description: 
+    Languages:
+    - Collect 200 diamonds
+    - Samla 200 diamanter
+    - Sammle 200 Diamanten
+    - "\u6536\u96C6200\u9897\u94BB\u77F3"
+    - Recoge 200 diamantes
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Collect 20 diamonds
+    TermType: 0
+    Description: 
+    Languages:
+    - Collect 50 diamonds
+    - Samla 50 diamanter
+    - Sammle 50 Diamanten
+    - "\u6536\u96C650\u9897\u94BB\u77F3"
+    - Recoge 50 diamantes
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Collect all stars for Christmas
+    TermType: 0
+    Description: 
+    Languages:
+    - Get all the stars for the Christmas pack
+    - "Samla alla stj\xE4rnor fr\xE5n julbanorna"
+    - "Holen Sie sich alle Sterne f\xFCr das Weihnachtspaket"
+    - "\u83B7\u5F97\u5723\u8BDE\u793C\u5305\u7684\u6240\u6709\u660E\u661F"
+    - "Consigue todas las estrellas para el pack navide\xF1o."
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Collect all stars for Christmas"
+    TermType: 0
+    Description: 
+    Languages:
+    - 
+    - 
+    - 
+    - 
+    - 
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Collect all stars for world 1
+    TermType: 0
+    Description: 
+    Languages:
+    - Collect all stars in world 1
+    - "Samla alla stj\xE4rnor i v\xE4rld 1"
+    - Sammle alle Sterne in Welt 1
+    - "\u6536\u96C6\u4E16\u754C\u4E0A\u6240\u6709\u7684\u660E\u661F1"
+    - Recoge todas las estrellas en el mundo 1
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Collect all stars for world 2
+    TermType: 0
+    Description: 
+    Languages:
+    - Collect all stars in world 2
+    - "Samla alla stj\xE4rnor i v\xE4rld 2"
+    - Sammle alle Sterne in Welt 2
+    - "\u6536\u96C6\u4E16\u754C\u4E0A\u6240\u6709\u7684\u660E\u661F2"
+    - Recoge todas las estrellas en el mundo 2
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Collect all stars!
+    TermType: 0
+    Description: 
+    Languages:
+    - Collect all stars!
+    - "Samlat alla stj\xE4rnor!"
+    - Sammle alle Sterne!
+    - "\u6536\u96C6\u6240\u6709\u7684\u660E\u661F\uFF01"
+    - Recoger todas las estrellas!
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Commander-in-chief at Pastille HQ
+    TermType: 0
+    Description: 
+    Languages:
+    - Commander-in-chief at Pastille HQ
+    - "Toppchef p\xE5 Pastille HQ"
+    - Oberbefehlshaber bei Pastille HQ
+    - "Pastille\u603B\u90E8\u7684\u603B\u53F8\u4EE4"
+    - Comandante en jefe en la sede de Pastille
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Cone anger
+    TermType: 0
+    Description: 
+    Languages:
+    - Cone anger
+    - Kon-ilska
+    - Kegel Wut
+    - "\u9525\u6124\u6012"
+    - "C\xF3lera de cono"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Cone rage
+    TermType: 0
+    Description: 
+    Languages:
+    - Cone rage
+    - Kon-kaos
+    - Kegel Wut
+    - "\u9525\u4F53\u6124\u6012"
+    - Rabia del cono
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Control movement by tilting up/down/left/right
+    TermType: 0
+    Description: 
+    Languages:
+    - Control movement by tilting up/down/left/right
+    - "Styr r\xF6relsen genom att luta upp/ner/v\xE4nster/h\xF6ger"
+    - Steuern Sie die Bewegung durch Schwenken nach oben / unten / links / rechts
+    - "\u901A\u8FC7\u5411\u4E0A/\u5411\u4E0B/\u5411\u5DE6/\u5411\u53F3\u503E\u659C\u6765\u63A7\u5236\u79FB\u52A8"
+    - Controle el movimiento inclinando hacia arriba / abajo / izquierda / derecha
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Curling star
+    TermType: 0
+    Description: 
+    Languages:
+    - Curling star
+    - "Curlingstj\xE4rna"
+    - Curling Stern
+    - "\u51B0\u58F6\u660E\u661F"
+    - Estrella que se encrespa
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Dimond hunter
+    TermType: 0
+    Description: 
+    Languages:
+    - Diamond hunter
+    - "Diamantj\xE4gare"
+    - "Diamantj\xE4ger"
+    - "\u94BB\u77F3\u730E\u4EBA"
+    - Cazador de diamantes
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Disco Roboto
+    TermType: 0
+    Description: 
+    Languages:
+    - Disco Roboto
+    - Disco Roboto
+    - Disco Roboto
+    - "\u8FEA\u65AF\u79D1roboto"
+    - Disco Roboto
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Doctor Spaceman
+    TermType: 0
+    Description: 
+    Languages:
+    - Doctor Spaceman
+    - Doktor Rymdman
+    - Arzt Raumfahrer
+    - "\u533B\u751F\u592A\u7A7A\u4EBA"
+    - Doctor Astronauta
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: "Don't confuse him with his evil twin\u2026"
+    TermType: 0
+    Description: 
+    Languages:
+    - "Don't confuse him with his evil twin\u2026"
+    - Blanda inte ihop honom med hans onda tvilling...
+    - "Verwechsle ihn nicht mit seinem b\xF6sen Zwilling ..."
+    - "\u4E0D\u8981\u628A\u4ED6\u548C\u4ED6\u7684\u53CC\u80DE\u80CE\u6DF7\u4E3A\u4E00\u8C08......"
+    - No lo confundas con su gemelo malvado ...
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Endast i zombie-paketet
+    TermType: 0
+    Description: 
+    Languages:
+    - Zombie pack only
+    - Endast i zombie-paketet
+    - Nur Zombie-Pack
+    - "\u53EA\u6709\u50F5\u5C38\u5305"
+    - Paquete Zombie solamente
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Erkon the Magnificient
+    TermType: 0
+    Description: 
+    Languages:
+    - Erkon the Magnificient
+    - Erkon den Magnifika
+    - "Erkon der Gro\xDFartige"
+    - Erkon Magnificient
+    - "Erkon el Magn\xEDfico"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: FB
+    TermType: 0
+    Description: 
+    Languages:
+    - FB
+    - FB
+    - Fb
+    - FB
+    - "Pensi\xF3n Completa"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Franky Fire
+    TermType: 0
+    Description: 
+    Languages:
+    - Franky Fire
+    - 'Eld-Frank '
+    - Franky Feuer
+    - "\u706B\u70ED"
+    - Fuego Franky
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: GRATTIS!! Du har besegrat zombie-bossen!
+    TermType: 0
+    Description: 
+    Languages:
+    - CONGRATS!! You have defeated the zombie boss!
+    - GRATTIS!! Du har besegrat zombie-bossen!
+    - "GL\xDCCKWUNSCH!! Du hast den Zombie-Boss besiegt!"
+    - "\u606D\u559C\uFF01\uFF01\u4F60\u5DF2\u7ECF\u51FB\u8D25\u50F5\u5C38\u8001\u677F\uFF01"
+    - "\xA1\xA1\xA1FELICITACIONES !! \xA1Has derrotado al jefe zombi!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Get +3 stars on all worlds
+    TermType: 0
+    Description: 
+    Languages:
+    - Get +3 stars on all worlds
+    - "F\xE5 +3 stj\xE4rnor p\xE5 alla v\xE4rldar"
+    - Erhalte +3 Sterne auf allen Welten
+    - "\u83B7\u5F97\u6240\u6709\u4E16\u754C\u7684+3\u661F"
+    - "Obt\xE9n +3 estrellas en todos los mundos"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Get 1 or more stars on every level!
+    TermType: 0
+    Description: 
+    Languages:
+    - Get 1 or more stars on every level!
+    - "F\xE5 en eller flera stj\xE4rnor p\xE5 varje bana!"
+    - Erhalte 1 oder mehr Sterne auf jedem Level!
+    - "\u5728\u6BCF\u4E2A\u7EA7\u522B\u83B7\u5F971\u4E2A\u6216\u66F4\u591A\u7684\u661F\u661F\uFF01"
+    - "\xA1Obt\xE9n 1 o m\xE1s estrellas en todos los niveles!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Get dizzy, loop 100 times
+    TermType: 0
+    Description: 
+    Languages:
+    - Get dizzy, loop 10 times
+    - "Bli yr, loopa 10 g\xE5nger"
+    - Schwindel, Schleife 10 mal
+    - "\u5934\u6655\uFF0C\u5FAA\u73AF10\u6B21"
+    - Mareos, bucle 10 veces
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Go through 5 rings
+    TermType: 0
+    Description: 
+    Languages:
+    - Go through 5 rings
+    - "\xC5k igenom fem ringar"
+    - Gehe durch 5 Ringe
+    - "\u901A\u8FC75\u4E2A\u6212\u6307"
+    - "Ir a trav\xE9s de 5 anillos"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Goals
+    TermType: 0
+    Description: 
+    Languages:
+    - Goals
+    - "M\xE5l"
+    - Tore
+    - "\u76EE\u6807"
+    - Metas
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: "Grattis, du har klarat sista curling-banan!  \xC4r du redo f\xF6r Zombie-v\xE4rlden?"
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Congratulations, you beat the last curling level!
+
+
+      Are you ready for the Zombie levels?'
+    - "Grattis, du har klarat sista curling-banan!\n\n\xC4r du redo f\xF6r Zombie-banorna?"
+    - "Herzlichen Gl\xFCckwunsch, du hast das letzte Curling Level geschafft!\n\nBist
+      du bereit f\xFCr die Zombie-Level?"
+    - "\u606D\u559C\uFF0C\u4F60\u51FB\u8D25\u4E86\u6700\u540E\u7684\u51B0\u58F6\u7EA7\u522B\uFF01\n\n\u4F60\u51C6\u5907\u597D\u4E86\u50F5\u5C38\u7684\u6C34\u5E73\uFF1F"
+    - "\xA1Felicidades, superaste el \xFAltimo nivel de curling!\n\n\xBFEst\xE1s listo
+      para los niveles de Zombie?"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Had some bad luck in life
+    TermType: 0
+    Description: 
+    Languages:
+    - Had some bad luck in life
+    - Har haft lite otur i livet
+    - Hatte etwas Pech im Leben
+    - "\u751F\u6D3B\u4E2D\u6709\u4E9B\u5384\u8FD0"
+    - Tuve un poco de mala suerte en la vida
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Has a passion for monster trucks and bunnies
+    TermType: 0
+    Description: 
+    Languages:
+    - Has a passion for monster trucks and bunnies
+    - "Har en passion f\xF6r monster trucks och kaniner"
+    - "Hat eine Leidenschaft f\xFCr Monster Trucks und Hasen"
+    - "\u5BF9\u602A\u7269\u5361\u8F66\u548C\u5154\u5B50\u6709\u70ED\u60C5"
+    - "Tiene una pasi\xF3n por los camiones monstruo y los conejitos"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Has a secret crush on Wanda
+    TermType: 0
+    Description: 
+    Languages:
+    - Has a huge hat collection
+    - Har en enorm samling av hattar
+    - Hat eine riesige Hutsammlung
+    - "\u6709\u4E00\u4E2A\u5DE8\u5927\u7684\u5E3D\u5B50\u6536\u85CF"
+    - "Tiene una gran colecci\xF3n de sombreros"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Has sailed the seven oceans and more
+    TermType: 0
+    Description: 
+    Languages:
+    - Has sailed the seven oceans and more
+    - Har seglat de sju haven och mer
+    - Hat die sieben Ozeane und mehr gesegelt
+    - "\u822A\u884C\u4E86\u4E03\u4E2A\u5927\u6D0B\u548C\u66F4\u591A"
+    - "Ha navegado los siete oc\xE9anos y m\xE1s"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: He just isn't there...
+    TermType: 0
+    Description: 
+    Languages:
+    - Now you see him now you don't
+    - "Nu ser du honom, nu g\xF6r du det inte"
+    - Jetzt siehst du ihn jetzt nicht
+    - "\u73B0\u5728\u4F60\u770B\u5230\u4ED6\u4E86\uFF0C\u4F60\u73B0\u5728\u4E0D\u77E5\u9053"
+    - Ahora lo ves ahora no lo haces
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: He just wants to bake a cake
+    TermType: 0
+    Description: 
+    Languages:
+    - He just wants to bake a cake
+    - Han vill bara baka en kaka
+    - "Er m\xF6chte nur einen Kuchen backen"
+    - "\u4ED6\u53EA\u60F3\u70E4\u86CB\u7CD5"
+    - "\xC9l solo quiere hornear un pastel"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Header
+    TermType: 0
+    Description: 
+    Languages:
+    - Header
+    - Huvud
+    - Header
+    - "\u5934"
+    - Encabezamiento
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Hi
+    TermType: 0
+    Description: 
+    Languages:
+    - Hi
+    - Hej
+    - Hallo
+    - "\u55E8"
+    - Hola
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Hiding in the woods near You
+    TermType: 0
+    Description: 
+    Languages:
+    - Hiding in the woods near You
+    - "G\xF6mmer sig i skogen n\xE4ra dig"
+    - "Versteckt sich in den W\xE4ldern in deiner N\xE4he"
+    - "\u8EB2\u5728\u4F60\u9644\u8FD1\u7684\u6811\u6797\u91CC"
+    - Escondido en el bosque cerca de ti
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: His origins are clouded in mystery
+    TermType: 0
+    Description: 
+    Languages:
+    - His origins are clouded in mystery
+    - "Hans ursprung \xE4r ett dolt mysterium"
+    - "Seine Urspr\xFCnge sind geheimnisumwittert"
+    - "\u4ED6\u7684\u8D77\u6E90\u795E\u79D8\u83AB\u6D4B"
+    - "Sus or\xEDgenes est\xE1n nublados en el misterio"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Hit 10 benches
+    TermType: 0
+    Description: 
+    Languages:
+    - Hit 10 benches
+    - "Tr\xE4ffa 10 b\xE4nkar"
+    - "Triff 10 B\xE4nke"
+    - "\u625310\u4E2A\u957F\u51F3"
+    - Hit 10 bancos
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Hit 10 curling stones
+    TermType: 0
+    Description: 
+    Languages:
+    - Hit 10 curling stones
+    - "Tr\xE4ffa 10 curlingstenar"
+    - Schlagen Sie 10 Curling Steine
+    - "\u625310\u4E2A\u51B0\u58F6"
+    - Golpea 10 piedras que se encrespan
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Hit 50 benche
+    TermType: 0
+    Description: 
+    Languages:
+    - Hit 50 benches
+    - "Tr\xE4ffa 50 b\xE4nkar"
+    - "Treffe 50 B\xE4nke"
+    - "\u625350\u4E2A\u957F\u6905"
+    - Golpea 50 bancos
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Hit 50 benches
+    TermType: 0
+    Description: 
+    Languages:
+    - Hit 50 benches
+    - "Tr\xE4ffa 50 b\xE4nkar"
+    - "Treffe 50 B\xE4nke"
+    - "\u625350\u4E2A\u957F\u6905"
+    - Golpea 50 bancos
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Hit a zombie to save it. Now repeat 99 times
+    TermType: 0
+    Description: 
+    Languages:
+    - Hit a zombie to save it. Now repeat 499 times.
+    - "Tr\xE4ffa en zombie f\xF6r att r\xE4dda den. G\xF6r det sen 499 g\xE5nger till."
+    - Triff einen Zombie, um ihn zu speichern. Jetzt wiederhole 499 mal.
+    - "\u6253\u4E00\u4E2A\u50F5\u5C38\u6765\u62EF\u6551\u5B83\u3002\u73B0\u5728\u91CD\u590D499\u6B21\u3002"
+    - Golpea a un zombie para salvarlo. Ahora repite 499 veces.
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Hit all balloons to open the dome
+    TermType: 0
+    Description: 
+    Languages:
+    - Hit all balloons to open the dome
+    - "Tr\xE4ffa alla ballonger f\xF6r att \xF6ppna kupolen"
+    - "Triff alle Ballons, um die Kuppel zu \xF6ffnen"
+    - "\u6253\u6240\u6709\u7684\u6C14\u7403\u6253\u5F00\u5706\u9876"
+    - Golpea todos los globos para abrir el domo
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Hug a bear
+    TermType: 0
+    Description: 
+    Languages:
+    - Hug a bear
+    - "Krama en bj\xF6rn"
+    - "Umarme einen B\xE4ren"
+    - "\u62E5\u62B1\u718A"
+    - Abraza un oso
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Interference
+    TermType: 0
+    Description: 
+    Languages:
+    - Interference
+    - Krock med domare
+    - Interferenz
+    - "\u5E72\u6270"
+    - Interferencia
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Interference I
+    TermType: 0
+    Description: 
+    Languages:
+    - Interference I
+    - Krock med domare I
+    - "St\xF6rungen I"
+    - "\u5E72\u6270i"
+    - Interferencia I
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Interference II
+    TermType: 0
+    Description: 
+    Languages:
+    - Interference II
+    - Krock med domare II
+    - "St\xF6rungen Ii"
+    - "\u5E72\u6270ii"
+    - Interferencia Ii
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Is a hard core cosplayer
+    TermType: 0
+    Description: 
+    Languages:
+    - Is a hard core cosplayer
+    - "\xC4r en seri\xF6s cosplayare"
+    - Ist ein Hardcore-Cosplayer
+    - "\u662F\u4E00\u4E2A\u575A\u5F3A\u7684\u6838\u5FC3\u5BF9\u8C61"
+    - "Es un cosplayer de n\xFAcleo duro"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Johan
+    TermType: 0
+    Description: 
+    Languages:
+    - Johan
+    - Johan
+    - Johan
+    - "\u7EA6\u7FF0"
+    - Johan
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Kick those cones
+    TermType: 0
+    Description: 
+    Languages:
+    - Kick those cones
+    - "Sparka p\xE5 konerna"
+    - Tritt diese Kegel
+    - "\u8E22\u90A3\u4E9B\u9525\u4F53"
+    - Patear esos conos
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: King of the road!
+    TermType: 0
+    Description: 
+    Languages:
+    - King of the road
+    - "Kungen p\xE5 gatan"
+    - "K\xF6nig der Stra\xDFe"
+    - "\u56FD\u738B\u7684\u9053\u8DEF"
+    - Rey de la carretera
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Knight Kato
+    TermType: 0
+    Description: 
+    Languages:
+    - Knight Kato
+    - Riddaren Kato
+    - Ritter Kato
+    - "\u9A91\u58EB\u52A0\u85E4"
+    - Caballero Kato
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Knows everything about classic Sci-fi comics
+    TermType: 0
+    Description: 
+    Languages:
+    - Knows everything about classic sci-fi comics
+    - Kan allt om serietidningar och klassisk sci-fi
+    - "Wei\xDF alles \xFCber klassische Science-Fiction-Comics"
+    - "\u4E86\u89E3\u7ECF\u5178\u79D1\u5E7B\u6F2B\u753B\u7684\u4E00\u5207"
+    - "Conoce todo sobre c\xF3mics de ciencia ficci\xF3n cl\xE1sicos"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Kyle
+    TermType: 0
+    Description: 
+    Languages:
+    - Kyle
+    - Kalle
+    - Kyle
+    - "\u51EF\u5C14"
+    - Kyle
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: LEVELS
+    TermType: 0
+    Description: 
+    Languages:
+    - LEVELS
+    - BANOR
+    - Ebenen
+    - "\u6C34\u5E73"
+    - Niveles
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Level Finished!
+    TermType: 0
+    Description: 
+    Languages:
+    - Level Finished!
+    - Banan Klar!
+    - Level Fertig!
+    - "\u7EA7\u5B8C\u6210\uFF01"
+    - Nivel Terminado!
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Live life with speed
+    TermType: 0
+    Description: 
+    Languages:
+    - Speed it up
+    - "S\xE4tt fart"
+    - Beschleunigen
+    - "\u52A0\u5FEB\u901F\u5EA6"
+    - Acelerarlo
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Loop 10 times
+    TermType: 0
+    Description: 
+    Languages:
+    - Loop 10 times
+    - "Loopa 10 g\xE5nger"
+    - Schleife 10 mal
+    - "\u5FAA\u73AF10\u6B21"
+    - Bucle 10 veces
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Loop 100 times
+    TermType: 0
+    Description: 
+    Languages:
+    - Loop 100  times
+    - "Loopa 100 g\xE5nger"
+    - Schleife 100 mal
+    - "\u5FAA\u73AF100\u6B21"
+    - Bucle 100 veces
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Loves a good time and making new friends
+    TermType: 0
+    Description: 
+    Languages:
+    - Loves making new friends
+    - "\xC4lskar att f\xE5 nya v\xE4nner"
+    - Liebt es, neue Freunde zu finden
+    - "\u7231\u7ED3\u4EA4\u65B0\u670B\u53CB"
+    - Le encanta hacer nuevos amigos
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: MAIN
+    TermType: 0
+    Description: 
+    Languages:
+    - MAIN
+    - MENY
+    - Main
+    - "\u4E3B\u8981"
+    - Principal
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Maria
+    TermType: 0
+    Description: 
+    Languages:
+    - Maria
+    - Maria
+    - Maria
+    - "\u739B\u4E3D\u4E9A"
+    - "Mar\xEDa"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Mike
+    TermType: 0
+    Description: 
+    Languages:
+    - Mike
+    - Micke
+    - Mike
+    - "\u9EA6\u514B\u98CE"
+    - Micro
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Moneymaker objects were reset
+    TermType: 0
+    Description: 
+    Languages:
+    - Moneymaker objects were reset
+    - "Moneymaker-objekt \xE5terst\xE4lldes"
+    - "Moneymaker-Objekte wurden zur\xFCckgesetzt"
+    - "Moneymaker\u5BF9\u8C61\u88AB\u91CD\u7F6E"
+    - Los objetos Moneymaker se restablecieron
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Morty the Mummy
+    TermType: 0
+    Description: 
+    Languages:
+    - Morty the Mummy
+    - Mumie-Martin
+    - Morty die Mumie
+    - "\u83AB\u8482\u6728\u4E43\u4F0A"
+    - Morty the Mummy
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: NO
+    TermType: 0
+    Description: 
+    Languages:
+    - NO
+    - NEJ
+    - Nein
+    - "\u6CA1\u6709"
+    - No
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: NOTIFY
+    TermType: 0
+    Description: 
+    Languages:
+    - NOTIFY
+    - AVISERA
+    - Benachrichtigen
+    - "\u901A\u77E5"
+    - Notificar
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Name Unknown
+    TermType: 0
+    Description: 
+    Languages:
+    - Name Unknown
+    - "Ok\xE4nt namn"
+    - Name Unbekannt
+    - "\u540D\u5B57\u4E0D\u660E"
+    - "An\xF3nimo"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: New level record!
+    TermType: 0
+    Description: 
+    Languages:
+    - New Level Record!
+    - "Nytt niv\xE5rekord!"
+    - Neuer Level Rekord!
+    - "\u65B0\u7684\u6C34\u5E73\u7EAA\u5F55\uFF01"
+    - Nuevo Nivel De Registro!
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Ninja Go Camo
+    TermType: 0
+    Description: 
+    Languages:
+    - Ninja Go Camo
+    - Kamouflage-Ninja
+    - Ninja Gehen Camo
+    - "\u5FCD\u8005\u53BB\u8FF7\u5F69"
+    - Ninja Go Camuflaje
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Not the sharpest tool in the box
+    TermType: 0
+    Description: 
+    Languages:
+    - Not the sharpest tool in the box
+    - "Inte det skarpaste verktyget i l\xE5dan"
+    - "Nicht das sch\xE4rfste Werkzeug in der Box"
+    - "\u4E0D\u662F\u76D2\u5B50\u91CC\u6700\u950B\u5229\u7684\u5DE5\u5177"
+    - "No es la herramienta m\xE1s n\xEDtida en la caja"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: OK
+    TermType: 0
+    Description: 
+    Languages:
+    - OK
+    - OK
+    - OK
+    - "\u597D"
+    - De Acuerdo
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Old best
+    TermType: 0
+    Description: 
+    Languages:
+    - Old Best
+    - Tidigare rekord
+    - Altbeste
+    - "\u65E7\u7684\u6700\u597D\u7684"
+    - Viejo Mejor
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Out of throws...
+    TermType: 0
+    Description: 
+    Languages:
+    - Out of throws...
+    - "Slut p\xE5 kast..."
+    - "Aus W\xFCrfen ..."
+    - "\u629B\u51FA......"
+    - Fuera de tiro ...
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: PLAY
+    TermType: 0
+    Description: 
+    Languages:
+    - Play
+    - Spela
+    - Abspielen
+    - "\u73A9"
+    - Jugar
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Patrick
+    TermType: 0
+    Description: 
+    Languages:
+    - Patrick
+    - Patrik
+    - Patrick
+    - "\u5E15\u7279\u91CC\u514B"
+    - Patricio
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Permanently half prize of all other characters!
+    TermType: 0
+    Description: 
+    Languages:
+    - 25% discount on all other characters!
+    - "25% rabatt p\xE5 alla andra figurer!"
+    - 25% Rabatt auf alle anderen Charaktere!
+    - "\u6240\u6709\u5176\u4ED6\u89D2\u827225\uFF05\u7684\u6298\u6263\uFF01"
+    - "\xA125% de descuento en todos los dem\xE1s personajes!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Pinball champ
+    TermType: 0
+    Description: 
+    Languages:
+    - Pinball champ
+    - "Flipperm\xE4stare"
+    - Pinball-Champion
+    - "\u5F39\u7403\u51A0\u519B"
+    - "Campe\xF3n de pinball"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Pinball hero
+    TermType: 0
+    Description: 
+    Languages:
+    - Pinball hero
+    - "Flipperhj\xE4lte"
+    - Flipperheld
+    - "\u5F39\u7403\u82F1\u96C4"
+    - "H\xE9roe de pinball"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Pirate Pilt
+    TermType: 0
+    Description: 
+    Languages:
+    - Pirate Pilt
+    - "Pirat-P\xE4r"
+    - Pirat
+    - "\u6D77\u76D7\u76AE\u80A4"
+    - Pirata Pirata
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Plays in slow motion!
+    TermType: 0
+    Description: 
+    Languages:
+    - Plays in slow motion!
+    - Spelar i slow motion!
+    - Spielt in Zeitlupe!
+    - "\u4EE5\u6162\u52A8\u4F5C\u64AD\u653E\uFF01"
+    - "\xA1Juega en c\xE1mara lenta!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Plays ultra fast!
+    TermType: 0
+    Description: 
+    Languages:
+    - Plays ultra fast!
+    - Spelar extremt snabbt!
+    - Spielt super schnell!
+    - "\u73A9\u8D85\u5FEB\uFF01"
+    - "\xA1Juega ultra r\xE1pido!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Please try again...
+    TermType: 0
+    Description: 
+    Languages:
+    - Please try again...
+    - "F\xF6rs\xF6k igen..."
+    - Bitte versuche es erneut...
+    - "\u8BF7\u518D\u8BD5\u4E00\u6B21..."
+    - "Int\xE9ntalo de nuevo..."
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Power tosser!
+    TermType: 0
+    Description: 
+    Languages:
+    - Throws himself with extra power!
+    - Kastar med extra kraft!
+    - "Wirft sich mit zus\xE4tzlicher Kraft!"
+    - "\u7528\u989D\u5916\u7684\u529B\u91CF\u6295\u63B7\u81EA\u5DF1\uFF01"
+    - "\xA1Se lanza con poder extra!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Press this button to affect gameplay
+    TermType: 0
+    Description: 
+    Languages:
+    - Press this button to affect gameplay
+    - "Tryck p\xE5 knappen f\xF6r att p\xE5verka spelet"
+    - "Dr\xFCcke diese Taste, um das Gameplay zu beeinflussen"
+    - "\u6309\u6B64\u6309\u94AE\u6765\u5F71\u54CD\u6E38\u620F"
+    - "Presiona este bot\xF3n para afectar el juego"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Pumki
+    TermType: 0
+    Description: 
+    Languages:
+    - Pumki
+    - Pumpi
+    - Pumki
+    - Pumki
+    - Pumki
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Push 5 boxes around
+    TermType: 0
+    Description: 
+    Languages:
+    - Push 5 boxes around
+    - "Knuffa p\xE5 5 l\xE5dor"
+    - "Dr\xFCcken Sie 5 K\xE4stchen herum"
+    - "\u63A85\u76D2\u5DE6\u53F3"
+    - Empuje 5 cajas alrededor
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Really good at KA-RA-TE
+    TermType: 0
+    Description: 
+    Languages:
+    - Really good at KA-RA-TE
+    - "Riktigt bra p\xE5 KA-RA-TE"
+    - Wirklich gut bei KA-RA-TE
+    - "\u771F\u7684\u5F88\u64C5\u957FKA-RA-TE"
+    - Muy bueno en KA-RA-TE
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Really reset all level progress, characters, and tasks?
+    TermType: 0
+    Description: 
+    Languages:
+    - Really reset all level progress, characters, and tasks?
+    - "\xC5terst\xE4ll all level-progress, karakt\xE4rer och tasks?"
+    - "Wirklich zur\xFCcksetzen alle Level Fortschritt, Charaktere und Aufgaben?"
+    - "\u771F\u7684\u91CD\u7F6E\u6240\u6709\u7EA7\u522B\u7684\u8FDB\u5EA6\uFF0C\u89D2\u8272\u548C\u4EFB\u52A1\u5417\uFF1F"
+    - "\xBFRealmente reinici\xF3 todo el progreso del nivel, los personajes y las
+      tareas?"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Refuses to take his helmet off
+    TermType: 0
+    Description: 
+    Languages:
+    - Refuses to take his helmet off
+    - "V\xE4grar att ta av sig hj\xE4lmen"
+    - Weigert sich, seinen Helm abzulegen
+    - "\u62D2\u7EDD\u6234\u5934\u76D4"
+    - Se niega a quitarse el casco
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Rumbo
+    TermType: 0
+    Description: 
+    Languages:
+    - Rumbo
+    - Rumbo
+    - Rumbo
+    - RUMBO
+    - Rumbo
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: "R\xE4dda zombies genom att tr\xE4ffa dem  L\xE5t dem inte passera den gula
+      linjen!"
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Save zombies by hitting them
+
+
+      Don''t let them pass the yellow line!'
+    - "R\xE4dda zombies genom att tr\xE4ffa dem\n\nL\xE5t dem inte passera den gula
+      linjen!"
+    - 'Speichern Sie Zombies, indem Sie sie treffen
+
+
+      Lass sie nicht die gelbe Linie passieren!'
+    - "\u51FB\u4E2D\u5B83\u4EEC\u6765\u4FDD\u5B58\u50F5\u5C38\n\n\u4E0D\u8981\u8BA9\u4ED6\u4EEC\u901A\u8FC7\u9EC4\u7EBF\uFF01"
+    - "Salva a los zombies golpe\xE1ndolos\n\n\xA1No dejes que pasen la l\xEDnea amarilla!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: SELECT LEVEL
+    TermType: 0
+    Description: 
+    Languages:
+    - "Select Level\t"
+    - "V\xE4lj Bana"
+    - "Stufe Ausw\xE4hlen"
+    - "\u9009\u62E9\u7EA7\u522B"
+    - Selecciona El Nivel
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: SWIPE OR DRAG & HOLD TO TOSS YOUR PLAYER
+    TermType: 0
+    Description: 
+    Languages:
+    - DRAG, HOLD AND AIM TO THROW YOUR PLAYER
+    - "DRA, H\xC5LL OCH SIKTA F\xD6R ATT KASTA DIN SPELARE"
+    - Ziehe, Halte Und Ziele, Um Deinen Spieler Zu Werfen
+    - "\u62D6\u52A8\uFF0C\u6309\u4F4F\u5E76\u7784\u51C6\u6254\u4F60\u7684\u7403\u5458"
+    - "Arrastra, Mant\xE9n Y Apunta Para Lanzar A Tu Jugador"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: "Samla juveler f\xF6r att f\xE5 mynt"
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Collect diamonds to get coins
+
+
+
+
+
+      You can also buy coins or get them by completing tasks'
+    - "Samla diamanter f\xF6r att f\xE5 mynt\n\n\n\n\nDu kan ocks\xE5 k\xF6pa mynt
+      eller f\xE5 dom genom att klara uppdrag"
+    - "Sammle Diamanten, um M\xFCnzen zu erhalten\n\n\n\n\nSie k\xF6nnen auch M\xFCnzen
+      kaufen oder sie erhalten, indem Sie Aufgaben erledigen"
+    - "\u6536\u96C6\u73E0\u5B9D\u6765\u83B7\u5F97\u91D1\u5E01\n\n\n\n\n\u4F60\u4E5F\u53EF\u4EE5\u8D2D\u4E70\u786C\u5E01\u6216\u5B8C\u6210\u4EFB\u52A1"
+    - "Recoge diamantes para obtener monedas\n\n\n\n\nTambi\xE9n puede comprar monedas
+      u obtenerlas completando tareas"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Save  100 Zoombies
+    TermType: 0
+    Description: 
+    Languages:
+    - Save 500 zombies
+    - "R\xE4dda 500 zombies"
+    - Sparen Sie 500 Zombies
+    - "\u62EF\u6551500\u4E2A\u50F5\u5C38"
+    - Salva 500 zombis
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Save the zombie by hitting it
+    TermType: 0
+    Description: 
+    Languages:
+    - 'Save the zombie by hitting it
+
+
+      Don''t let it pass the yellow line!'
+    - "R\xE4dda zombien genom att tr\xE4ffa den\n\nL\xE5t den inte passera den gula
+      linjen!"
+    - 'Rette den Zombie, indem du ihn triffst
+
+
+      Lass es nicht die gelbe Linie passieren!'
+    - "\u70B9\u51FB\u5B83\u4FDD\u5B58\u50F5\u5C38\n\n\u4E0D\u8981\u8BA9\u5B83\u901A\u8FC7\u9EC4\u7EBF\uFF01"
+    - "Salva al zombie golpe\xE1ndolo\n\n\xA1No dejes pasar la l\xEDnea amarilla!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: See the other side of the ring
+    TermType: 0
+    Description: 
+    Languages:
+    - See the other side of the ring
+    - Se andra sidan av ringen
+    - Sieh die andere Seite des Rings
+    - "\u770B\u5230\u6212\u6307\u7684\u53E6\u4E00\u9762"
+    - Mira el otro lado del ring
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Select
+    TermType: 0
+    Description: 
+    Languages:
+    - Select
+    - "V\xE4lj"
+    - "W\xE4hlen"
+    - "\u9009\u62E9"
+    - Seleccionar
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Select character
+    TermType: 0
+    Description: 
+    Languages:
+    - Select Character
+    - "V\xE4lj Karakt\xE4r"
+    - "W\xE4hle Zeichen"
+    - "\u9009\u62E9\u5B57\u7B26"
+    - Selecciona Personaje
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Shatter windows for fun and profit
+    TermType: 0
+    Description: 
+    Languages:
+    - Shatter windows for fun and profit
+    - "Ha s\xF6nder rutor f\xF6r n\xF6jes skull"
+    - "Zerst\xF6re Fenster zum Spa\xDF und Profit"
+    - "\u7C89\u788E\u7A97\u6237\u7684\u4E50\u8DA3\u548C\u5229\u6DA6"
+    - Rompe ventanas para divertirte y obtener ganancias
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: She is Arkons minion
+    TermType: 0
+    Description: 
+    Languages:
+    - She is Arkons minion
+    - "Hon \xE4r Arkons favorit"
+    - "Sie ist Arkons G\xFCnstling"
+    - "\u5979\u662FArkons\u5974\u624D"
+    - Ella es la minion de Arkons
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Skelly Mel
+    TermType: 0
+    Description: 
+    Languages:
+    - Skelly Mel
+    - Skelly Skelett
+    - Skelly Mel
+    - "Skelly\u6885\u5C14"
+    - Skelly Mel
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Slide along a curbed wall 100 times
+    TermType: 0
+    Description: 
+    Languages:
+    - Slide along a curbed wall 100 times
+    - "Glid l\xE4ngs en kurva 100 g\xE5nger"
+    - "Gleiten Sie 100 Mal an einer ged\xE4mpften Wand entlang"
+    - "\u6CBF\u7740\u5F2F\u66F2\u7684\u5899\u58C1\u6ED1\u52A8100\u6B21"
+    - "Desl\xEDzate a lo largo de una pared embridada 100 veces"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Slide along a curbed wall 5 times
+    TermType: 0
+    Description: 
+    Languages:
+    - Slide along a curbed wall 5 times
+    - "Glid l\xE4ngs en kurva 5 g\xE5nger"
+    - "Gleiten Sie 5 mal an einer ged\xE4mpften Wand entlang"
+    - "\u6CBF\u7740\u4E00\u4E2A\u5F2F\u66F2\u7684\u5899\u6ED1\u52A85\u6B21"
+    - Deslice a lo largo de una pared encintada 5 veces
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Slide on asphalt
+    TermType: 0
+    Description: 
+    Languages:
+    - Slide on asphalt
+    - "Glider p\xE5 asfalt"
+    - Auf Asphalt schieben
+    - "\u6ED1\u4E0A\u6CA5\u9752"
+    - Desliza sobre el asfalto
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Slides like butter...
+    TermType: 0
+    Description: 
+    Languages:
+    - Slides like butter...
+    - "Glider som sm\xF6r..."
+    - Folien wie Butter ...
+    - "\u5E7B\u706F\u7247\u50CF\u9EC4\u6CB9......"
+    - Diapositivas como la mantequilla ...
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Smash into 25 referee
+    TermType: 0
+    Description: 
+    Languages:
+    - Smash 25 referee
+    - Krocka med 25 domare
+    - Smash 25 Schiedsrichter
+    - "\u7C89\u788E25\u88C1\u5224"
+    - "Smash 25 \xE1rbitro"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Smash into a bear
+    TermType: 0
+    Description: 
+    Languages:
+    - Smash into a bear
+    - "Krocka med en bj\xF6rn"
+    - "Zerschlage einen B\xE4ren"
+    - "\u7C89\u788E\u6210\u718A"
+    - Smash en un oso
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Smash into a referee
+    TermType: 0
+    Description: 
+    Languages:
+    - Smash into a referee
+    - Krocka med en domare
+    - Zerschlage einen Schiedsrichter
+    - "\u7C89\u788E\u6210\u88C1\u5224"
+    - "Smash en un \xE1rbitro"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Snowy the Man
+    TermType: 0
+    Description: 
+    Languages:
+    - Snowy the Man
+    - "Sn\xF6snubben"
+    - Snowy der Mann
+    - "\u96EA\u4EBA"
+    - Snowy the Man
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Steer ninja by tilting device left or right
+    TermType: 0
+    Description: 
+    Languages:
+    - Steer the ninja by tilting your device left or right
+    - "Styr genom att luta enheten \xE5t v\xE4nster eller h\xF6ger"
+    - "Steure den Ninja, indem du dein Ger\xE4t nach links oder rechts kippst"
+    - "\u901A\u8FC7\u5411\u5DE6\u6216\u5411\u53F3\u503E\u659C\u8BBE\u5907\u6765\u64CD\u7EB5\u5FCD\u8005"
+    - Dirige al ninja inclinando tu dispositivo hacia la izquierda o hacia la derecha
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: TRY FREE  LEVEL
+    TermType: 0
+    Description: 
+    Languages:
+    - TRY FREE LEVEL
+    - PROVA GRATIS BANA
+    - Versuchen Sie Es Kostenlos
+    - "\u5C1D\u8BD5\u514D\u8D39\u7EA7\u522B"
+    - Prueba El Nivel Gratis
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Take 100 curbs
+    TermType: 0
+    Description: 
+    Languages:
+    - Take 100 curbs
+    - Ta 100 kurvor
+    - Nimm 100 Bordsteine
+    - "\u91C7\u53D6100\u4E2A\u8DEF\u80A9"
+    - Tome 100 bordillos
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Take 5 curbs
+    TermType: 0
+    Description: 
+    Languages:
+    - Take 5 curbs
+    - Ta 5 kurvor
+    - Nimm 5 Bordsteine
+    - "\u91C7\u53D65\u4E2A\u8DEF\u80A9"
+    - Toma 5 bordillos
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: "Texten visar antal stj\xE4rnor du kan f\xE5 - gr\xF6n f\xF6r 3 stj\xE4rnor,
+      gult f\xF6r 2, r\xF6d f\xF6r 1 stj\xE4rna"
+    TermType: 0
+    Description: 
+    Languages:
+    - 'The text color shows how many stars you get for finishing the level with the
+      next toss.
+
+
+      3 stars: green
+
+      2 stars: yellow
+
+      1 star: red'
+    - "Textens f\xE4rg visar antal stj\xE4rnor du f\xE5r om du klarar niv\xE5n med
+      n\xE4sta kast.\n\n3 stj\xE4rnor: gr\xF6n\n2 stj\xE4rnor: gul\n1 stj\xE4rna:
+      r\xF6d\n\n"
+    - "Die Textfarbe zeigt an, wie viele Sterne du erh\xE4ltst, um das Level mit dem
+      n\xE4chsten Wurf zu beenden.\n\n3 Sterne: gr\xFCn\n2 Sterne: gelb\n1 Stern:
+      rot"
+    - "\u6587\u5B57\u989C\u8272\u663E\u793A\u60A8\u5728\u4E0B\u4E00\u6B21\u6298\u817E\u65F6\u83B7\u5F97\u4E86\u591A\u5C11\u661F\u7EA7\u6765\u5B8C\u6210\u5173\u5361\u3002\n\n3\u661F\uFF1A\u7EFF\u8272\n2\u661F\uFF1A\u9EC4\u8272\n\u4E00\u661F\uFF1A\u7EA2"
+    - 'El color del texto muestra la cantidad de estrellas que obtienes para terminar
+      el nivel con el siguiente lanzamiento.
+
+
+      3 estrellas: verde
+
+      2 estrellas: amarillo
+
+      1 estrella: rojo'
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Thinks he is the coolest dude in town
+    TermType: 0
+    Description: 
+    Languages:
+    - Thinks he is the coolest dude in town
+    - "Han tycker att han \xE4r den coolaste snubben i stan"
+    - Denkt, er ist der coolste Typ in der Stadt
+    - "\u8BA4\u4E3A\u4ED6\u662F\u57CE\u91CC\u6700\u9177\u7684\u5BB6\u4F19"
+    - "Piensa que es el tipo m\xE1s genial de la ciudad"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Three stars
+    TermType: 0
+    Description: 
+    Languages:
+    - Three stars
+    - "Tre stj\xE4rnor"
+    - Drei Sterne
+    - "\u4E09\u9897\u661F"
+    - Tres estrellas
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Three stars I
+    TermType: 0
+    Description: 
+    Languages:
+    - Three stars I
+    - "Tre stj\xE4rnor I"
+    - Drei Sterne ich
+    - "\u4E09\u9897\u661F\u6211"
+    - Tres estrellas I
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Three stars II
+    TermType: 0
+    Description: 
+    Languages:
+    - Three stars II
+    - "Tre stj\xE4rnor II"
+    - Drei Sterne II
+    - "\u4E09\u9897\u661FII"
+    - Tres estrellas II
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Three stars III
+    TermType: 0
+    Description: 
+    Languages:
+    - Three stars III
+    - "Tre stj\xE4rnor III"
+    - Drei Sterne III
+    - "\u4E09\u9897\u661F\u4E09"
+    - Tres estrellas III
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Three stars IV
+    TermType: 0
+    Description: 
+    Languages:
+    - Three stars IV
+    - "Tre stj\xE4rnor IV"
+    - Drei Sterne IV
+    - "\u4E09\u9897\u661F\u661F\u56DB"
+    - Tres estrellas IV
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Throw 10 times
+    TermType: 0
+    Description: 
+    Languages:
+    - Throw 10 times
+    - "Kasta 10 g\xE5nger"
+    - Wirf 10 Mal
+    - "\u6295\u63B710\u6B21"
+    - Lanza 10 veces
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Throw 1000 times
+    TermType: 0
+    Description: 
+    Languages:
+    - Throw 1000 times
+    - "Kasta 1000 g\xE5nger\n"
+    - Wirf 1000 Mal
+    - "\u6295\u63B71000\u6B21"
+    - Lanza 1000 veces
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Throw 250 times
+    TermType: 0
+    Description: 
+    Languages:
+    - Throw 250 times
+    - "Kasta 250 g\xE5nger"
+    - Wirf 250 Mal
+    - "\u6295\u63B7250\u6B21"
+    - Tirar 250 veces
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Throw one time
+    TermType: 0
+    Description: 
+    Languages:
+    - Throw one time
+    - "Kasta f\xF6r f\xF6rsta g\xE5ngen"
+    - Einmal werfen
+    - "\u6254\u4E00\u6B21"
+    - Lanzar una vez
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Timmy
+    TermType: 0
+    Description: 
+    Languages:
+    - Timmy
+    - Tim
+    - Timmy
+    - "\u9093\u80AF"
+    - Timmy
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Trick or treat?
+    TermType: 0
+    Description: 
+    Languages:
+    - Trick or treat?
+    - Bus eller godis?
+    - "S\xFC\xDFes oder Saures?"
+    - "\u6363\u86CB\uFF1F"
+    - "\xBFTruco o trato?"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Trophy dimond hunter
+    TermType: 0
+    Description: 
+    Languages:
+    - Trophy diamond hunter
+    - "Trof\xE9 diamantj\xE4gare"
+    - "Troph\xE4en-Diamant-J\xE4ger"
+    - "\u5956\u676F\u94BB\u77F3\u730E\u4EBA"
+    - Cazador de diamantes del trofeo
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: UNLOCK LEVELS
+    TermType: 0
+    Description: 
+    Languages:
+    - UNLOCK LEVELS
+    - "L\xC5S UPP BANOR"
+    - Ebenen Entsperren
+    - "\u89E3\u9501\u6C34\u5E73"
+    - Desbloquear Niveles
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Ugh uhh gguuhu
+    TermType: 0
+    Description: 
+    Languages:
+    - Ugh uhh gguuhu
+    - Ugh uhh gguuhu
+    - Ughhghuuhu
+    - "\u5443\u5443gguuhu"
+    - Ugh uhh gguuhu
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Uhhh ghu gkahh
+    TermType: 0
+    Description: 
+    Languages:
+    - Uhhh ghu gkahh
+    - Uhhh ghu gkahh
+    - Uhhh ghu gkahh
+    - Uhhh ghu gkahh
+    - Uhhh ghu gkahh
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Undead Yeti Strong
+    TermType: 0
+    Description: 
+    Languages:
+    - Undead Yeti Strong
+    - "Od\xF6d sn\xF6man "
+    - Untoter Yeti Stark
+    - "\u4E0D\u6B7B\u65CF\u96EA\u4EBA\u5F3A\u5927"
+    - Undead Yeti Fuerte
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Unlock 10 three star stages
+    TermType: 0
+    Description: 
+    Languages:
+    - Unlock 20 stages with three stars
+    - "L\xE5s upp 20 banor med tre stj\xE4rnor"
+    - Schalte 20 Stufen mit drei Sternen frei
+    - "\u7528\u4E09\u9897\u661F\u89E3\u950120\u4E2A\u9636\u6BB5"
+    - Desbloquea 20 etapas con tres estrellas
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Unlock 15 three star stages
+    TermType: 0
+    Description: 
+    Languages:
+    - Unlock 35 stages with three stars
+    - "L\xE5s upp 35 banor med tre stj\xE4rnor"
+    - Schalte 35 Stufen mit drei Sternen frei
+    - "\u7528\u4E09\u9897\u661F\u89E3\u950135\u4E2A\u9636\u6BB5"
+    - Desbloquea 35 etapas con tres estrellas
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Unlock 25 three star stages
+    TermType: 0
+    Description: 
+    Languages:
+    - Unlock 50 stages with three stars
+    - "L\xE5s upp 50 banor med tre stj\xE4rnor"
+    - Schalte 50 Stufen mit drei Sternen frei
+    - "\u7528\u4E09\u9897\u661F\u89E3\u950150\u4E2A\u9636\u6BB5"
+    - Desbloquea 50 etapas con tres estrellas
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Unlock 5 three star stages
+    TermType: 0
+    Description: 
+    Languages:
+    - Unlock 5 stages with three stars
+    - "L\xE5s upp 5 banor med tre stj\xE4rnor"
+    - Schalte 5 Stufen mit drei Sternen frei
+    - "\u7528\u4E09\u9897\u661F\u89E3\u95015\u4E2A\u9636\u6BB5"
+    - Desbloquea 5 etapas con tres estrellas
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Unlock all levels for world 1
+    TermType: 0
+    Description: 
+    Languages:
+    - Unlock all levels for world 1
+    - "L\xE5s upp alla niv\xE5er f\xF6r v\xE4rld 1"
+    - "Schalte alle Level f\xFCr Welt 1 frei"
+    - "\u89E3\u9501\u4E16\u754C1\u7684\u6240\u6709\u5173\u5361"
+    - Desbloquea todos los niveles para el mundo 1
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Unlock all levels for world 2
+    TermType: 0
+    Description: 
+    Languages:
+    - Unlock all levels in the zombie pack!
+    - "L\xE5s upp alla niv\xE5er f\xF6r zombie paketet!"
+    - Schalte alle Level im Zombie-Pack frei!
+    - "\u89E3\u9501\u50F5\u5C38\u5305\u4E2D\u7684\u6240\u6709\u5173\u5361\uFF01"
+    - "\xA1Desbloquea todos los niveles en el paquete de zombies!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Unlock zombie
+    TermType: 0
+    Description: 
+    Languages:
+    - Unlock Zombie
+    - "L\xE5s upp Zombie"
+    - Entsperren Zombie
+    - "\u89E3\u9501\u50F5\u5C38"
+    - Desbloquear Zombie
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Unlocked a world
+    TermType: 0
+    Description: 
+    Languages:
+    - Unlocked a world
+    - "V\xE4rld uppl\xE5st"
+    - Entsperrte eine Welt
+    - "\u89E3\u9501\u4E00\u4E2A\u4E16\u754C"
+    - Desbloqueado un mundo
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Use boost 5 times
+    TermType: 0
+    Description: 
+    Languages:
+    - Use boost 5 times
+    - "Anv\xE4nd en boost 5 g\xE5nger"
+    - Benutze den Boost 5 mal
+    - "\u4F7F\u7528\u63D0\u53475\u6B21"
+    - Use boost 5 veces
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Use boost 50 times
+    TermType: 0
+    Description: 
+    Languages:
+    - Use a booster 50 times
+    - "Anv\xE4nd en booster 50 g\xE5nger"
+    - Verwenden Sie einen Booster 50 Mal
+    - "\u4F7F\u7528\u52A9\u63A8\u566850\u6B21"
+    - Use un refuerzo 50 veces
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Use teleporter 5 times
+    TermType: 0
+    Description: 
+    Languages:
+    - Use a teleporter 5 times
+    - "Anv\xE4nd en teleporter 5 g\xE5nger"
+    - Benutze einen Teleporter 5 Mal
+    - "\u4F7F\u7528\u4F20\u9001\u56685\u6B21"
+    - Usa un teletransportador 5 veces
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Uses his evil powers to get free ice-cream every day
+    TermType: 0
+    Description: 
+    Languages:
+    - Uses his evil powers to get free ice-cream every day
+    - "Anv\xE4nder sina onda krafter f\xF6r att f\xE5 gratis glass varje dag"
+    - "Benutzt seine b\xF6sen M\xE4chte, um jeden Tag Eis zu essen"
+    - "\u5229\u7528\u4ED6\u7684\u90AA\u6076\u529B\u91CF\u6BCF\u5929\u83B7\u5F97\u514D\u8D39\u7684\u51B0\u6FC0\u51CC"
+    - "Utiliza sus poderes malvados para obtener helado gratis todos los d\xEDas"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Uses his ninja skills to fight evil
+    TermType: 0
+    Description: 
+    Languages:
+    - Uses his ninja skills to fight evil
+    - "Anv\xE4nder sina ninjakrafter f\xF6r att bek\xE4mpa ondskan"
+    - "Benutzt seine Ninja-F\xE4higkeiten, um das B\xF6se zu bek\xE4mpfen"
+    - "\u4F7F\u7528\u4ED6\u7684\u5FCD\u8005\u6280\u80FD\u6765\u5BF9\u6297\u90AA\u6076"
+    - Utiliza sus habilidades ninja para luchar contra el mal
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Wanda
+    TermType: 0
+    Description: 
+    Languages:
+    - Wanda
+    - Veronica
+    - Wanda
+    - "\u4E07\u8FBE"
+    - Wanda
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Watch a video for unlimited resets for 5 minutes?
+    TermType: 0
+    Description: 
+    Languages:
+    - Watch a video for unlimited resets for 5 minutes?
+    - "Titta p\xE5 en video f\xF6r att f\xE5 5 minuters obegr\xE4nsat antal omstarter?"
+    - "Video f\xFCr unbegrenztes Zur\xFCcksetzen f\xFCr 5 Minuten ansehen?"
+    - "\u89C2\u770B\u89C6\u9891\uFF0C\u65E0\u9650\u6B21\u91CD\u7F6E5\u5206\u949F\uFF1F"
+    - "\xBFVer un video para reinicios ilimitados durante 5 minutos?"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Watch an ad to receive 10 credits?
+    TermType: 0
+    Description: 
+    Languages:
+    - Watch an ad to receive 30 coins?
+    - "Se p\xE5 en reklamfilm och f\xE5 30 mynt?"
+    - "Sehen Sie eine Anzeige, um 30 M\xFCnzen zu erhalten?"
+    - "\u89C2\u770B\u548C\u5E7F\u544A\u4EE5\u6536\u523030\u4E2A\u786C\u5E01\uFF1F"
+    - Mira un anuncio para recibir 30 monedas?
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Web
+    TermType: 0
+    Description: 
+    Languages:
+    - Web
+    - Web
+    - Netz
+    - "\u5377\u7B52\u7EB8"
+    - Web
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: When there is smoky there is Franky
+    TermType: 0
+    Description: 
+    Languages:
+    - When there is smoky there is Franky
+    - "Ingen r\xF6k utan Franky"
+    - Wenn es rauchig ist, ist Franky da
+    - "\u5F53\u53D1\u70DF\u65F6\uFF0C\u6709Franky"
+    - Cuando hay humo hay Franky
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Works at NASA
+    TermType: 0
+    Description: 
+    Languages:
+    - Works at NASA
+    - "Arbetar p\xE5 NASA"
+    - Arbeitet bei der NASA
+    - "\u5728\u7F8E\u56FD\u5B87\u822A\u5C40\u5DE5\u4F5C"
+    - Trabaja en la NASA
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: X2
+    TermType: 0
+    Description: 
+    Languages:
+    - X2
+    - X2
+    - X2
+    - X2
+    - X2
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: YES
+    TermType: 0
+    Description: 
+    Languages:
+    - YES
+    - JA
+    - Ja
+    - "\u662F"
+    - "S\xED"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: YOU have enough credits to buy a new character!
+    TermType: 0
+    Description: 
+    Languages:
+    - YOU have enough credits to buy a new character!
+    - "DU har tillr\xE4ckligt med krediter f\xF6r att k\xF6pa en ny karakt\xE4r!"
+    - "DU hast gen\xFCgend Credits, um einen neuen Charakter zu kaufen!"
+    - "\u4F60\u6709\u8DB3\u591F\u7684\u79EF\u5206\u8D2D\u4E70\u65B0\u89D2\u8272\uFF01"
+    - "\xA1TIENES cr\xE9ditos suficientes para comprar un nuevo personaje!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: You best stay out of the way
+    TermType: 0
+    Description: 
+    Languages:
+    - You best stay out of the way
+    - "Du borde h\xE5lla dig ur v\xE4gen"
+    - Du bleibst am besten aus dem Weg
+    - "\u4F60\u6700\u597D\u907F\u5F00"
+    - Es mejor que te mantengas alejado del camino
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: You failed...
+    TermType: 0
+    Description: 
+    Languages:
+    - You failed...
+    - Du misslyckades...
+    - Du hast versagt...
+    - "\u4F60\u5931\u8D25\u4E86..."
+    - Fallaste...
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: You need to collect 1 more star to play the next level
+    TermType: 0
+    Description: 
+    Languages:
+    - Collect 1 more star to play the next level
+    - "Samla ytterligare 1 stj\xE4rna f\xF6r att spela n\xE4sta niv\xE5"
+    - "Sammle 1 weiteren Stern, um das n\xE4chste Level zu spielen"
+    - "\u6536\u96C6\u53E6\u59161\u4E2A\u661F\u661F\u6765\u53D1\u6325\u4E0B\u4E00\u4E2A\u7B49\u7EA7"
+    - "Recoge 1 estrella m\xE1s para jugar el siguiente nivel"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: You need to collect more stars to play the next level
+    TermType: 0
+    Description: 
+    Languages:
+    - Collect 0 more stars to play the next level
+    - "Samla ytterligare 0 stj\xE4rnor f\xF6r att spela n\xE4sta niv\xE5"
+    - "Sammle 0 weitere Sterne, um das n\xE4chste Level zu spielen"
+    - "\u6536\u96C6\u53E6\u59160\u9897\u661F\u661F\u6765\u53D1\u6325\u4E0B\u4E00\u4E2A\u7EA7\u522B"
+    - "Recoge 0 estrella m\xE1s para jugar el siguiente nivel"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Your wish is his command
+    TermType: 0
+    Description: 
+    Languages:
+    - Your wish is his command
+    - "Din \xF6nskan \xE4r hans befallning"
+    - Dein Wunsch ist sein Befehl
+    - "\u4F60\u7684\u613F\u671B\u662F\u4ED6\u7684\u547D\u4EE4"
+    - Tu deseo es su comando
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: ZOMBIE pack only
+    TermType: 0
+    Description: 
+    Languages:
+    - ZOMBIE pack only
+    - Endast i zombie-paketet
+    - ZOMBIE nur packen
+    - "\u53EA\u6709ZOMBIE\u5305\u88C5"
+    - Paquete ZOMBI solo
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Zap to the right spot using the teleporter
+    TermType: 0
+    Description: 
+    Languages:
+    - Zap to a new location by using a teleporter
+    - "F\xF6rflytta dig genom att anv\xE4nda en teleporter"
+    - Zap an einen neuen Ort mit einem Teleporter
+    - "\u901A\u8FC7\u4F7F\u7528\u4F20\u9001\u5668\u5C06Zap\u79FB\u52A8\u5230\u65B0\u7684\u4F4D\u7F6E"
+    - "Zap a una nueva ubicaci\xF3n usando un teletransportador"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Zombie Braains
+    TermType: 0
+    Description: 
+    Languages:
+    - Zombie Braains
+    - Zombie-Hjalmar
+    - Zombie Braains
+    - "\u50F5\u5C38\u8725\u8734"
+    - Geek Zombie
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: Zombie Zue
+    TermType: 0
+    Description: 
+    Languages:
+    - Zombie Zue
+    - Zombie Zuzanne
+    - Zombie Zu
+    - "\u50F5\u5C38zue"
+    - Zombie Zue
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: back
+    TermType: 0
+    Description: 
+    Languages:
+    - BACK
+    - "BAK\xC5T"
+    - "Zur\xFCck"
+    - "\u80CC\u90E8"
+    - Espalda
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: christmas3
+    TermType: 0
+    Description: 
+    Languages:
+    - third day of christmas
+    - tredje juldagen
+    - dritter Tag von Weihnachten
+    - "\u5723\u8BDE\u8282\u7684\u7B2C\u4E09\u5929"
+    - tercer dia de navidad
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: christmaspack
+    TermType: 0
+    Description: 
+    Languages:
+    - Christmas
+    - Jul
+    - Weihnachten
+    - "\u5723\u8BDE"
+    - Navidad
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: christmaspopup
+    TermType: 0
+    Description: 
+    Languages:
+    - 'NEW Christmas levels! '
+    - NYA jul-banor!
+    - NEUE Weihnachtslevel!
+    - "\u65B0\u7684\u5723\u8BDE\u8282\u6C34\u5E73\uFF01"
+    - "\xA1NUEVOS niveles de navidad!"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: coins
+    TermType: 0
+    Description: 
+    Languages:
+    - coins
+    - mynt
+    - "M\xFCnzen"
+    - "\u786C\u5E01"
+    - monedas
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: credits
+    TermType: 0
+    Description: 
+    Languages:
+    - coins
+    - mynt
+    - "M\xFCnzen"
+    - "\u786C\u5E01"
+    - monedas
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: curling
+    TermType: 0
+    Description: 
+    Languages:
+    - Curling
+    - Curling
+    - "Eisstockschie\xDFen"
+    - "\u5377\u66F2"
+    - Curling
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: dayofchristmas1
+    TermType: 0
+    Description: 
+    Languages:
+    - first day of Christmas
+    - "f\xF6rsta juldagen"
+    - erster Tag von Weihnachten
+    - "\u5723\u8BDE\u8282\u7684\u7B2C\u4E00\u5929"
+    - primer dia de navidad
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: dayofchristmas2
+    TermType: 0
+    Description: 
+    Languages:
+    - second day of christmas
+    - andra juldagen
+    - zweiter Tag von Weihnachten
+    - "\u5723\u8BDE\u8282\u7684\u7B2C\u4E8C\u5929"
+    - segundo dia de navidad
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: dayofchristmas3
+    TermType: 0
+    Description: 
+    Languages:
+    - third day of christmas
+    - tredje juldagen
+    - dritter Tag von Weihnachten
+    - "\u5723\u8BDE\u8282\u7684\u7B2C\u4E09\u5929"
+    - tercer dia de navidad
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: dayofchristmas4
+    TermType: 0
+    Description: 
+    Languages:
+    - fourth day of christmas
+    - "fj\xE4rde juldagen"
+    - vierter Tag von Weihnachten
+    - "\u5723\u8BDE\u8282\u7684\u7B2C\u56DB\u5929"
+    - cuarto dia de navidad
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: dayofchristmas5
+    TermType: 0
+    Description: 
+    Languages:
+    - fifth day of christmas
+    - femte juldagen
+    - "f\xFCnfter weihnachtenstag"
+    - "\u5723\u8BDE\u8282\u7684\u7B2C\u4E94\u5929"
+    - quinto dia de navidad
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: dayofchristmas6
+    TermType: 0
+    Description: 
+    Languages:
+    - sixth day of christmas
+    - "sj\xE4tte juldagen"
+    - Sechster Tag von Weihnachten
+    - "\u5723\u8BDE\u8282\u7684\u7B2C\u516D\u5929"
+    - sexto dia de navidad
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: dayofchristmas7
+    TermType: 0
+    Description: 
+    Languages:
+    - seventh day of christmas
+    - sjunde dagen av jul
+    - siebter Tag von Weihnachten
+    - "\u5723\u8BDE\u8282\u7684\u7B2C\u4E03\u5929"
+    - "s\xE9ptimo d\xEDa de navidad"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: extra
+    TermType: 0
+    Description: 
+    Languages:
+    - Extra
+    - Extra
+    - Extra
+    - "\u989D\u5916"
+    - Extra
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: helsinki
+    TermType: 0
+    Description: 
+    Languages:
+    - helsinki
+    - helsinki
+    - Helsinki
+    - "\u8D6B\u5C14\u8F9B\u57FA"
+    - helsinki
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: level
+    TermType: 0
+    Description: 
+    Languages:
+    - level
+    - bana
+    - Niveau
+    - "\u6C34\u5E73"
+    - nivel
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: look at indicator while dragging to see speed and angle
+    TermType: 0
+    Description: 
+    Languages:
+    - look at indicator while dragging to see speed and angle
+    - "titta p\xE5 indikatorn medan du drar f\xF6r att se fart och vinkel"
+    - "Schaue auf den Indikator, w\xE4hrend du ihn schleppst, um Geschwindigkeit und
+      Winkel zu sehen"
+    - "\u770B\u7740\u6307\u6807\uFF0C\u540C\u65F6\u62D6\u52A8\u4EE5\u67E5\u770B\u901F\u5EA6\u548C\u89D2\u5EA6"
+    - "mira el indicador mientras lo arrastras para ver la velocidad y el \xE1ngulo"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: look at info bar for number of goals, number of players, and number of tosses
+      per player
+    TermType: 0
+    Description: 
+    Languages:
+    - Look at the info bar to see how many goals and number of throws you have
+    - "Titta p\xE5 info skylten f\xF6r information om antal m\xE5l och antal kast"
+    - "Sehen Sie in der Info-Leiste nach, wie viele Tore und wie viele W\xFCrfe Sie
+      haben"
+    - "\u67E5\u770B\u4FE1\u606F\u680F\uFF0C\u67E5\u770B\u60A8\u62E5\u6709\u591A\u5C11\u4E2A\u76EE\u6807\u548C\u6570\u91CF\u7684\u6298\u6263"
+    - "Mira la barra de informaci\xF3n para ver cu\xE1ntos objetivos y cantidad de
+      lanzamientos tienes"
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: new character
+    TermType: 0
+    Description: 
+    Languages:
+    - New character
+    - "Ny karakt\xE4r"
+    - Neuer Charakter
+    - "\u65B0\u89D2\u8272"
+    - Nuevo personaje
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: restore purchase
+    TermType: 0
+    Description: 
+    Languages:
+    - Restore purchase
+    - "\xC5terst\xE4ll k\xF6p"
+    - Kauf wiederherstellen
+    - "\u6062\u590D\u8D2D\u4E70"
+    - Restaurar compra
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: zombie
+    TermType: 0
+    Description: 
+    Languages:
+    - Zombie
+    - Zombie
+    - Zombie
+    - "\u50F5\u5C38"
+    - Zombi
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: "\u2022 new Levels \u2022 become cool in school"
+    TermType: 0
+    Description: 
+    Languages:
+    - "new levels \nbecome cool in school"
+    - "nya niv\xE5er\nbli cool i skolan"
+    - 'neue Ebenen
+
+      werde cool in der Schule'
+    - "\u65B0\u7684\u6C34\u5E73\n\u5728\u5B66\u6821\u53D8\u5F97\u5F88\u9177"
+    - 'nuevos niveles
+
+      ser cool en la escuela'
+    Flags: 0000000000
+    Languages_Touch: []
+  - Term: zombiepopup
+    TermType: 0
+    Description: 
+    Languages:
+    - Have you tried the zombie levels?
+    - Har du provat zombie-banorna?
+    - Haben Sie die Zombie-Level ausprobiert?
+    - "\u4F60\u6709\u6CA1\u6709\u5C1D\u8BD5\u8FC7\u50F5\u5C38\u7B49\u7EA7\uFF1F"
+    - "\xBFHas probado los niveles de zombies?"
+    Flags: 0000000000
+    Languages_Touch: []
+  CaseInsensitiveTerms: 1
+  OnMissingTranslation: 1
+  mTerm_AppName: 
